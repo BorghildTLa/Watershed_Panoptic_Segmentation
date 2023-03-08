@@ -27,7 +27,7 @@ Once the project folders have been generated, place whole slide images in:
 
 */base_dir/project/TRAINING_data/0/*
 ## Network Training
-Edit the "segmentation_school.py" script to configure training parameters, or include in command line when running
+Edit the "segmentation_school.py" script to configure training parameters, or include in command line when running.
 
 Place whole slide images for training in:
 
@@ -45,7 +45,7 @@ python3 segmentation_school.py --option train --project name_of_project/ --base_
 ```
 Include any other arguments you wish to change from default at the end of this line (training steps, learning rates, etc.), or change directly in the python script
 ## Network Prediction
-Edit the "segmentation_school.py" script to configure testing parameters, or include in command line when running
+Edit the "segmentation_school.py" script to configure testing parameters, or include in command line when running.
 
 Place whole slide images for testing in:
 
@@ -68,10 +68,3 @@ For segmentation on 6 renal compartments using pretrained model, use:
 Include any other arguments you wish to change from default at the end of this line (box size, etc.), or change directly in the python script
 # Acknowledgements
 Please cite our work @
-
-
-
-
-
-
-From the prediction folder, run the script 
