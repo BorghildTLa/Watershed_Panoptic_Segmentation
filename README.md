@@ -3,9 +3,9 @@ This repository contains codes for training and testing a watershed-based panopt
 - **training:** For training the model
 - **prediction:** For testing a trained model on new slides
 # Data
-Whole slide DN biopsies can be found at athena.rc.ufl.edu
+Whole slide DN biopsies can be found at [athena.rc.ufl.edu](https://athena.rc.ufl.edu/)
 
-Trained model files can be found at *box folder*
+Trained model files can be found in *[this box folder](https://trailblazer.box.com/s/r4zsgbffmfbrw7gp0flhh82ez0vq44xe)*
 
 # Requirements
 - Tensorflow 1.14.0
@@ -67,4 +67,4 @@ For segmentation on 6 renal compartments using pretrained model, use:
 ```
 Include any other arguments you wish to change from default at the end of this line (box size, etc.), or change directly in the python script
 # Acknowledgements
-Please cite our work @
+Please cite our work!
