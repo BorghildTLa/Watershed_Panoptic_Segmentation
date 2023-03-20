@@ -67,4 +67,4 @@ For segmentation on 6 renal compartments using pretrained model, use:
 ```
 Include any other arguments you wish to change from default at the end of this line (box size, etc.), or change directly in the python script
 # Acknowledgements
-Please cite our work @
+Please cite our work!
