@@ -118,9 +118,16 @@ def restart_line(): # for printing chopped image labels in command line
     sys.stdout.flush()
 
 def getWsi(path): #imports a WSI
-    import openslide
-    slide = openslide.OpenSlide(path)
-    return slide
+
+    OPENSLIDE_PATH = r"C:\Users\borgh\Downloads\openslide-bin-4.0.0.6-windows-x64\openslide-bin-4.0.0.6-windows-x64\bin"
+
+    if hasattr(os, 'add_dll_directory'):
+        # Windows
+        with os.add_dll_directory(OPENSLIDE_PATH):
+            import openslide
+    else:
+        import openslide
+
 
 def file_len(fname): # get txt file length (number of lines)
     with open(fname) as f:
